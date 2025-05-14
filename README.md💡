@@ -1,0 +1,65 @@
+# Performance Tweaks Module
+
+## Overview
+This Magisk module optimizes your device's performance by applying various tweaks to CPU, memory, I/O, and system settings. It's compatible with all Android 10+ devices and includes anti-bootloop protection.
+
+## Author
+- **Developer**: willygailo01@gmail.com
+
+## Features
+- **CPU Optimization**: Adjusts CPU governors based on battery state and usage
+- **Memory Management**: Improves VM settings for better app performance
+- **I/O Scheduler**: Optimizes disk read/write operations
+- **System Tweaks**: Reduces animation scales and background processes
+- **Battery Awareness**: Different performance profiles based on battery level
+- **Anti-Bootloop Protection**: Automatically disables itself if a bootloop is detected
+- **Wide Compatibility**: Works with all phone models running Android 10+
+
+## Requirements
+- Android 10 or newer (SDK 29+)
+- Magisk v29.0 or newer
+- Root access
+
+## Installation
+1. Download the module zip file
+2. Open Magisk Manager
+3. Tap on Modules section
+4. Select "Install from storage"
+5. Choose the downloaded zip file
+6. Reboot your device
+
+## Performance Impact
+- **CPU Performance**: Enhanced responsiveness
+- **App Loading**: Faster app launches
+- **Memory Usage**: Better memory management
+- **Battery**: Smart optimization based on charge state
+
+## Safety Features
+This module includes anti-bootloop protection that will automatically disable the module if your device fails to boot properly multiple times. The protection triggers after 3 failed boot attempts within 30 seconds.
+
+## Uninstallation
+1. Open Magisk Manager
+2. Go to Modules section
+3. Find "Performance Tweaks" and tap the uninstall button
+4. Reboot your device
+
+## Troubleshooting
+If you experience any issues:
+1. Boot into safe mode
+2. Disable the module via Magisk Manager
+3. Reboot
+4. Contact the developer at willygailo01@gmail.com
+
+## Changelog
+### v1.0
+- Initial release
+- Basic performance tweaks
+- Anti-bootloop protection
+- Support for all Android 10+ devices
+
+## License
+This module is provided as-is without any warranty. Use at your own risk.
+
+## Credits
+- Thanks to the Magisk development team
+- Special thanks to topjohnwu for Magisk 
